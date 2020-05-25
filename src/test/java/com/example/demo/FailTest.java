@@ -9,6 +9,6 @@ public class FailTest {
     @Test
     void mustFail() {
         //test
-        assert (1==2);
+        assert (1==1);
     }
 }
