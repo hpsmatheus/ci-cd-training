@@ -9,7 +9,7 @@ class DemoApplicationTests {
 	@Test
 	void contextLoads() {
 		//Teste de pipeline
-		assert (1==1);
+		assert (1==2);
 	}
 
 }
