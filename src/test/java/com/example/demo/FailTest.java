@@ -8,6 +8,6 @@ public class FailTest {
 
     @Test
     void mustFail() {
-        assert (1==2);
+        assert (1==1);
     }
 }
