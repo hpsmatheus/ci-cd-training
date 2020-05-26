@@ -64,7 +64,6 @@ jobs: # a collection of steps
           channel: 'C013T77J5HV'
           color: '#42e2f4'
           mentions: 'D014E4W544C'
-          color: '#42e2f4'
           message: This is a custom message notification
           webhook: '${SLACK_WEBHOOK}'
 
