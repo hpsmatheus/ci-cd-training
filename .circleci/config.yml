@@ -68,9 +68,6 @@ workflows:
   workflow:
     jobs:
     - build 
-    - slack/notify:
-          channel: 'C013T77J5HV'
-          color: '#42e2f4'
-          mentions: 'matheus.santos'
-          message: This is a custom message notification
+    - slack/approval-notification:
+          message: Pending approval
           webhook: '${SLACK_WEBHOOK}'
