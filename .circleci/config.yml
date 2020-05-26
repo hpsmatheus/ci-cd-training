@@ -65,7 +65,7 @@ jobs: # a collection of steps
           color: '#42e2f4'
           mentions: 'matheus.santos'
           message: This is a custom message notification
-          webhook: '${SLACK_WEBHOOK}'
+          webhook: 'https://hooks.slack.com/services/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'
 orbs:
   slack: circleci/slack@3.4.2
 workflows:
